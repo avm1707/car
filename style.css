@@ -1,0 +1,311 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.nav{
+    height: 90px;
+    background-color: rgb(247, 245, 242);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+ 
+}
+
+.logo{
+    height: 40px;
+    width: 100px;
+    background-color: white;
+    border: 3px solid rgba(5, 94, 238, 0.829);
+    color: rgb(0, 191, 255);
+    margin-left:25px ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.25em;
+    font-weight: bolder;
+    border-radius: 8px;
+}
+.about{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+}
+.about a{
+    text-decoration: none;
+    color: black;
+    font-size: 1.20em;
+    font-weight: bolder;
+}
+.about a:hover{
+ color:rgb(0, 191, 255) ;
+}
+.btn{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    margin-right: 40px;
+}
+button{
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    font-size: 15px;
+}
+.btn .btn1{
+    border: 3px solid blue;
+    background-color: white;
+    color: rgba(49, 125, 247, 0.807);
+}
+.btn .btn2{
+    border:2px solid rgb(86, 161, 253) ;
+    background-color: rgb(86, 161, 253);
+}
+/*part1*/
+.part1{
+    height: 650px;
+    width: 100%;
+    background-color: rgba(232, 232, 232, 0.747);
+    position: relative;
+}
+.content{
+    display: flex;
+    align-items: center;
+}
+.contain{
+    padding: 4%;
+    max-width: 750px;
+    font-weight: bolder;
+}
+.contain h1{
+    font-size: 3.5em;
+
+}
+.contain span{
+    color: rgba(74, 143, 253, 0.942);
+}
+.contain p{
+    line-height: 2em;
+
+}
+.contain button{
+    margin-top: 10px;
+    border: none;
+    background-color: rgba(74, 143, 253, 0.942) ;
+}
+.img img{
+    width: 500px;
+    height:500px ;
+    border-radius: 50%;
+    background-image: url("1.avif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+}
+/*location*/
+.loc{
+    height: 150px;
+    background-color: rgb(251, 249, 249);
+    position: relative;
+}
+.loc2{
+    position: absolute;
+    width: 90%;
+    height: 180px;
+    box-shadow: 0px 0px 10px 2px black ;
+    background-color: white;
+    bottom:65px;
+    margin-left: 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.pick1{
+    height: 35px;
+    width: 140px;
+    border: 1px solid black;
+    border-radius: 10px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pick1 i{
+    font-size: 1.25em;
+}
+.loc2 .btn3{
+    background-color: rgb(94, 134, 255);
+    height: 30px;
+    width: 100px;
+
+}
+/*part2*/
+.part2{
+    height: 1500px;
+    width: 100%;
+    background-color: rgb(251, 249, 249);
+}
+.heading{
+    padding-top: 15px;
+}
+.heading h1{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    font-size: 3em;
+}
+.heading span{
+    color:  rgba(74, 143, 253, 0.942);
+    padding-left: 15px;
+}
+.heading p{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+.box{
+    padding: 30px;
+    justify-content: center;
+    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 30px 0px;
+}
+#subbox{
+    height:650px;
+    width: 450px;
+    box-shadow: 0px 2px 10px 0px black;
+    padding: 10px;
+}
+#subbox img{
+ 
+    height: 50%;
+    width: 90%;
+    border-radius: 5px;
+    margin-left: 25px;
+    object-fit: cover;
+    object-position: center;  
+}
+#subbox i{
+    font-size: 1.25em;
+    padding: 0px 0px  10px 3px ;
+    color: rgb(255, 179, 38);
+
+}
+#subbox .icon{
+    display: flex;
+    padding-top: 15px;
+}
+.icon p{
+    color: rgb(144, 144, 144);
+}
+.seat{
+    height: 140px;
+    width: 100%;
+    padding-top:10px ;
+    margin-left: 15Px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.seat1{
+    height: 65px;
+    width: 140px;
+    font-size: 1.25em;
+    display: flex;
+    align-items: center;
+}
+.seat1 #icon2{
+    color:   rgba(74, 143, 253, 0.942);
+}
+.seat1 p{
+    margin-left: 5px;
+    font-weight: bolder;
+}
+.sepration{
+    height: 2px;
+    width: 85%;
+    background-color: rgb(190, 187, 187);
+    margin-left: 30px;
+}
+.price{
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.price button{
+    background-color: blue;
+    font-weight: bolder;
+    height: 40px;
+    width: 120px;
+    border: none;
+    border-radius: 10px;
+}
+/*part3*/
+.part3{
+    height: 500px;
+    background-color: rgb(236, 235, 235);
+}
+.head span{
+    color:  rgba(74, 143, 253, 0.942);  
+}
+.head h1{
+    font-size: 2.8em;
+    font-weight: bolder;
+    padding: 20px;
+}
+.head2{
+    display: flex;
+    justify-content: center;
+}
+.pra{
+    display: flex;
+    justify-content: center; 
+}
+.choose{
+    padding-top: 20PX;
+    height: 360px;
+    display: grid;
+    grid-template-columns: 150px 38% 150px 35%;
+    gap: 20px 20px;
+}
+.choose-1{
+    margin-left: 20PX;
+    display: flex;
+justify-content: center;
+
+}
+.choose-2{
+    margin-left: 20PX;
+}
+.icon-1{
+height: 90px;
+width: 90px;
+border-radius: 15px;
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 2.5em;
+background-color: rgb(63, 63, 253);
+}
+/*part4*/
+.part4{
+    height: 500px;
+    /* background-color: red; */
+}
+.head-2 span{
+    color:  rgba(74, 143, 253, 0.942);  
+    padding-left: 12px;
+}
+.head-2 h1{
+    font-size: 2.8em;
+    font-weight: bolder;
+    padding-top: 70px;
+}
+.head-3{
+    display: flex;
+    justify-content: center;
+}
+.pra-2{
+    display: flex;
+    justify-content: center; 
+}
